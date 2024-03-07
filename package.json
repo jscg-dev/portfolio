@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "deploy": "gh-pages -d dist/portfolio/browser -r https://github.com/jscg-dev/portfolio.git"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^17.2.0",
+    "@angular/common": "^17.2.0",
+    "@angular/compiler": "^17.2.0",
+    "@angular/core": "^17.2.0",
+    "@angular/forms": "^17.2.0",
+    "@angular/platform-browser": "^17.2.0",
+    "@angular/platform-browser-dynamic": "^17.2.0",
+    "@angular/router": "^17.2.0",
+    "@emailjs/browser": "^4.3.1",
+    "@ngx-jc-tools/effects": "^1.0.11",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.2.0",
+    "@angular/cli": "^17.2.0",
+    "@angular/compiler-cli": "^17.2.0",
+    "@types/jasmine": "~5.1.0",
+    "angular-cli-ghpages": "^1.0.7",
+    "autoprefixer": "^10.4.17",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-dark-mode": "^1.1.7",
+    "typescript": "~5.3.2"
+  }
+}

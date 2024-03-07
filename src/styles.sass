@@ -1,0 +1,22 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+@tailwind variants
+
+.tooltip-text
+  position: absolute
+  transform: translateX(-12px) translateY(5px)
+  padding: 4px 6px
+  border-radius: 4px
+  display: none
+
+.tooltip
+  &:hover, &:visited
+    > .tooltip-text
+      display: inline
+
+.icon-glow
+  transform: translateZ(0)
+
+html
+  scroll-behavior: smooth
